@@ -4,6 +4,7 @@ WORKDIR /link-bot
 
 COPY main.py /link-bot/
 COPY requirements.txt /link-bot/
+COPY .env /link-bot/
 
 RUN mkdir /link-bot/configs
 
